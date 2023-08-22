@@ -28,7 +28,7 @@ export default function Add() {
 
         <>
 
-            <Tooltip onClick={e => setOpen(true)} title="Add" sx={{ position: "fixed", bottom: 20, left: { xs: "calc(50%)", md: 30 } }} >
+            <Tooltip onClick={e => setOpen(true)} title="Add" sx={{ position: "fixed", bottom: 20, left:  20 }} >
                 <Fab color="primary" aria-label="add" >
                     <AddIcon />
                 </Fab>

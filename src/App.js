@@ -19,7 +19,7 @@ export default function App() {
     <Box bgcolor={"background.default"} color="text.primary">
       <Navbar />
       <Add setMode={setMode} modi={mode}/>
-      <Stack direction="row" spacing={2} justifyContent="space-between">
+      <Stack direction="row"  justifyContent="space-between">
         <Sidebar />
         <Feed />
         <Rightbar />

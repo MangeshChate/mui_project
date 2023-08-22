@@ -8,7 +8,7 @@ import Post from './Post';
 
 export default function Feed() {
   return (
-    <Box  flex={5}  >
+    <Box  flex={5} p={2}  >
         <Post/>
         <Post/>
         <Post/>
