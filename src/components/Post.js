@@ -7,7 +7,7 @@ import ShareIcon from '@mui/icons-material/Share';
 export default function Post() {
   return (
    
-    <Card>
+    <Card sx={{marginBottom:"15px"}}>
       <CardHeader 
       
         avatar={
