@@ -59,7 +59,7 @@ export default function Navbar() {
                     />
                 </Icons>
                 <UserBox>
-                    <Avatar sx={{ width: 30, height: 30, backgroundColor: "cyan" }} src="https://mangeshchate.netlify.app/static/media/my_img.757a064c61c4b77e1cb1.png"
+                    <Avatar sx={{ width: 30, height: 30, backgroundColor: "white" }} src="https://mangeshchate.netlify.app/static/media/my_img.757a064c61c4b77e1cb1.png"
                     
                     onClick={e=>setOpen(true)}
 

@@ -7,8 +7,9 @@ import ShareIcon from '@mui/icons-material/Share';
 export default function Post() {
   return (
    
-    <Card  sx={{margin:3}}>
-      <CardHeader
+    <Card>
+      <CardHeader 
+      
         avatar={
           <Avatar sx={{ bgcolor: "red[500] "}} aria-label="recipe">
             R
